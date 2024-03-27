@@ -19,9 +19,16 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(loginButtonListener);
     }
 
-    View.OnClickListener loginButtonListener = view -> startSpecificActivity(MainActivity.class);
+    private final View.OnClickListener loginButtonListener = view -> startNonExportedActivity(MainActivity.class);
 
-    private void startSpecificActivity(Class<?> otherActivityClass){
-        startActivity(new Intent(getApplicationContext(), otherActivityClass));
+    /**
+     * Start an specific Activity that is not exported. To do so, the method hast o use an explicit
+     * Intent.
+     * @param activityClass class of the activity to be started
+     */
+    private void startNonExportedActivity(Class<?> activityClass){
+        Intent explicitIntent = new Intent(getApplicationContext(), activityClass);
+        //explicitIntent.setPackage(getApplicationContext().getPackageName());
+        startActivity(explicitIntent);
     }
 }
