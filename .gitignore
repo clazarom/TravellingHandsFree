@@ -12,4 +12,6 @@
 /captures
 .externalNativeBuild
 .cxx
+#local properties and files
 local.properties
+_code_references.txt
