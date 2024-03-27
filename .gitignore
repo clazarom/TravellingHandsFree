@@ -12,6 +12,6 @@
 /captures
 .externalNativeBuild
 .cxx
-#local properties and files
-local.properties
-_code_references.txt
+#references and code info
+/_code_references.txt
+google-services.json

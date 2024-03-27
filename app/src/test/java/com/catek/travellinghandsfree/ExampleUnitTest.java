@@ -1,4 +1,4 @@
-package com.example.travellinghandsfree;
+package com.catek.travellinghandsfree;
 
 import org.junit.Test;
 

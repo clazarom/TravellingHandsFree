@@ -1,4 +1,4 @@
-package com.example.travellinghandsfree.ui.slideshow;
+package com.catek.travellinghandsfree.ui.slideshow;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.travellinghandsfree.databinding.FragmentSlideshowBinding;
+import com.catek.travellinghandsfree.databinding.FragmentSlideshowBinding;
 
 public class SlideshowFragment extends Fragment {
 

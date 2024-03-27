@@ -1,7 +1,6 @@
-package com.example.travellinghandsfree;
+package com.catek.travellinghandsfree;
 
 import android.os.Bundle;
-import android.view.View;
 import android.view.Menu;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -14,7 +13,8 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.travellinghandsfree.databinding.ActivityMainBinding;
+import com.catek.travellinghandsfree.databinding.ActivityMainBinding;
+
 
 public class MainActivity extends AppCompatActivity {
 
