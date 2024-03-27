@@ -9,12 +9,13 @@
 
     <!-- Login Strings -->
     <string name="login_activity_label">Login</string>
+    <string name="login_image_logo_description">Application logo</string>
     <string name="login_logo_text">Travel hands free!</string>
     <string name="login_button_enter">Enter</string>
 
     <!-- Main Strings -->
-    <string name="main_activity_label">Home</string>
-    <string name="main_label">Home</string>
+    <string name="main_activity_label">Main</string>
+    <string name="home_label">Home</string>
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>

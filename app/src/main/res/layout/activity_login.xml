@@ -8,6 +8,7 @@
 
     <ImageView
         android:id="@+id/imageLoginLogo"
+        android:contentDescription="@string/login_image_logo_description"
         android:layout_width="187dp"
         android:layout_height="157dp"
         android:layout_marginTop="72dp"
