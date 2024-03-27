@@ -9,7 +9,7 @@
 
     <!-- Login Strings -->
     <string name="login_activity_label">Login</string>
-    <string name="login_text">Login</string>
+    <string name="login_logo_text">Travel hands free!</string>
     <string name="login_button_enter">Enter</string>
 
     <!-- Main Strings -->
