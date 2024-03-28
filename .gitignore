@@ -1,6 +1,6 @@
+# Android Studio 
 *.iml
 .gradle
-/local.properties
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -12,6 +12,14 @@
 /captures
 .externalNativeBuild
 .cxx
-#references and code info
+
+# Virtual Devices and location
+.idea/deploymentTargetDropDown.xml
+
+# Local configuration file (sdk, paths etc.)
+/local.properties
+
+# References and code info
 /_code_references.txt
 google-services.json
+
